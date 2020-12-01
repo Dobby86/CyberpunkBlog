@@ -16,18 +16,23 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/css/app.css">
         <script src="js/app.js"></script>
-        <link rel="stylesheet" href="css/app.css">
+        
 
     </head>
     <body>
         <header>
-            
+            <div class="headerSistemato">
                 @yield('principale')
                 @yield('headerLink')
                 @yield('headerLink2')
                 @yield('headerLink3')
                 
+
+            </div>
+            
+               
                              
         </header>
         <section class="parteCentrale">

@@ -15,6 +15,9 @@
     <li>
       <button id="login">Login</button>
     </li>
+    <li>
+      <button id="login">Register</button>
+    </li>
        
 
 </ul>

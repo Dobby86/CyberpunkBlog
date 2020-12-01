@@ -1,86 +1,14 @@
-@import 'header';
-@import 'footer';
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
 @import 'body';
+@import 'footer';
+@import 'header';
 
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Xephyr Font", Courier, monospace;
-}
 
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
 
-#immagineUpolad{
-    width:900px; 
-    word-wrap: break-word;
-}
-
-
-body{
-    width: 100vw;
-    min-height: 60vh;
-    background-color:black;
-    color: antiquewhite;
-    margin: 0;
-    
-}
-.mezzo{
-    width: 100vw;
-    min-height: 60vh;
-    background-color:black;
-    color: antiquewhite;
-    margin: 0;
-}
-
-
-@media all and (max-width: 576px) {
-    #map, #shop, #gadget{
-       height: 200px;
-       width: 380px; 
-           
-    }
-    .listaWelcome {
-        width: 400px;
-    }
-    .listaWelcome li{
-        
-        font-size: 15px;
-    }
-    .libri,.mappa, .gadget{
-        margin-top: 50px;
-        
-    }
-    .visualeMappa{
-        min-width: 300px;
-        min-height: 300px;
-    }
-  }
-  
-  @media all and (min-width: 450px) and (max-width: 768px) {
-    #map, #shop, #gadget{
-        height: 200px;
-        width: 380px; 
-       
-     } #fotina{
-        width: 350px;
-        height: 300px;
-     }
-    
-  }
-  
-  /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
-  @media all and (min-width: 768px) and (max-width: 991px) {
-    #map, #shop, #gadget{
-        height: 200px;
-        width: 380px; 
-            
-     }
-    
-  }
-  
-  /* Large devices (desktops, 992px and up) */
-  @media all and (min-width: 992px) and (max-width:1199px) {
-  
-  }
-  

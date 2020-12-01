@@ -52,8 +52,8 @@
                 <br>
                <label for="descrizione">Descrizione</label>
                <input type="text" name="descrizione" value="" required>
-        
-               <input type="submit" name="submit" value="CREATE">
+                <br>
+               <input id="submit" type="submit" name="submit" value="CREATE">
         
            </form>
           

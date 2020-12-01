@@ -1,6 +1,7 @@
 @extends('layouts.mainLayout')
 
 @section('edit')
+<div class="schema">
             @if ($errors->any())
                 <div class="alert alert-danger">
                     <ul>
@@ -27,11 +28,11 @@
                 <br>
                <label for="descrizione">Descrizione</label>
                <input type="text" name="descrizione" value="{{$item['descrizione']}}">
-        
-               <input type="submit" name="submit" value="Update">
+                <br>
+               <input id="submit" type="submit" name="submit" value="Update">
         
            </form>
-          
+        </div>        
    
     @endsection 
 

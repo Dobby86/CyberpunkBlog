@@ -1,4 +1,4 @@
-<section class="col-xs-12 col-sm-12 col-lg-12">
+<section id="partesotto" class="col-xs-12 col-sm-12 col-lg-12">
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-lg-4">
     

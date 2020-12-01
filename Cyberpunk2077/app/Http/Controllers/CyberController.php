@@ -32,7 +32,7 @@ class CyberController extends Controller
     public function createx() {
 
         
-        return view('mappe-create')-> withSuccess("Created " . "successfully");
+        return view('mappe-create');
         
     }
 
@@ -81,6 +81,7 @@ class CyberController extends Controller
         
     }
 }
+
 
  
 

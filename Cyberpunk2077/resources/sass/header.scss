@@ -4,7 +4,13 @@ header{
     align-items: center;
     min-height:10vh;
     width: 100%;
+    background-color: black;
    
+}
+.headerSistemato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .menu{
     display: flex;

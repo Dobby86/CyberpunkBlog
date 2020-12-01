@@ -6,7 +6,7 @@
          <ul class="listaDatiIns">
 
         
-            <li id="immagineUpolad"> Immagine: {{$item['src']}}</li>
+            <li id="immagineUpload"> Immagine: {{$item['src']}}</li>
                <br>
                <li> Titolo: {{$item['titolo']}}</li>
                <br>

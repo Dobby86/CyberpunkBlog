@@ -32,5 +32,6 @@ Route::post('/update/{id}', 'CyberController@update') -> name("update");
 
 
 
+Auth::routes();
 
-
+Route::get('/home', 'HomeController@index')->name('home');
