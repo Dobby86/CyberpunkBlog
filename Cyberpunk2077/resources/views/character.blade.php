@@ -69,7 +69,7 @@
       <h2>
         ITEMS
         <br>
-      <a href="{{ route('createx') }}">Create New</a>
+      <a id="create" href="{{ route('createx') }}">Create New</a>
       
       </h2>   
       <br>
@@ -77,7 +77,7 @@
       @foreach ($mappeGenerate as $item)
       <li>
     
-              <a href="{{ route('show', $item['id']) }}">
+              <a id="creati" href="{{ route('show', $item['id']) }}">
                   {{$item['titolo']}}
               </a>
       </li>

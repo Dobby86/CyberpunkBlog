@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: black;
+    
     height: 100vh;
     width: 100vw;
 }
@@ -15,7 +15,7 @@ body{
 }
 .parteCentrale{
     min-height: 60vh;
-    width: 100vw;
+    min-width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,6 +50,21 @@ h2{
     text-align: center;
     margin-bottom: 30px;
     
+}
+#creati{
+    text-decoration: none;
+    color: purple;
+}
+#creati:hover{
+    color: salmon;
+}
+#create{
+    text-decoration: none;
+    color: salmon;
+    animation: blink 1s linear infinite;
+}
+#create:hover{
+    color: purple;
 }
 a{
     text-decoration: none;
@@ -164,11 +179,35 @@ label{
     min-width: 900px;
     
 }
+#immagineUpload{
+    margin-top: 10px;
+}
 
 @media screen and (max-width:900px){
     #scritta{
         margin:0 auto;
-        width:400px;
+        width:700px;
         height: 400px;
     }
+    .headerSistemato a{
+        
+        font-size: 15px;
+    }
+    .headerSistemato ul{
+        width: 600px;
+        
+    }
+  
+    
+   
+}
+@media screen and (max-width:650px){
+    .parteCentrale{
+       
+        background-color: red;
+        width: 100vw;
+        
+    }
+    
+   
 }

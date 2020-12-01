@@ -13,7 +13,7 @@
         <div class="libri">
             <h2>Amazon-Shop</h2>
         
-            <a href="https://www.amazon.it/s?k=cyberpunk+2077&__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=23DQ5A72T8IA6&sprefix=cyberpunk%2Caps%2C213&ref=nb_sb_ss_ts-a-p_1_9"><img id="shop" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.gracza.pl%2Fi_gp%2Fw%2Fh3%2F720_313066364.jpg&f=1&nofb=1" alt="">
+            <a href="https://www.amazon.it/s?k=cyberpunk+2077&__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=23DQ5A72T8IA6&sprefix=cyberpunk%2Caps%2C213&ref=nb_sb_ss_ts-a-p_1_9"><img id="shop" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FUWyvcIOyNh0%2Fmaxresdefault.jpg&f=1&nofb=1" alt="">
         </a> 
         </div>
         </div>

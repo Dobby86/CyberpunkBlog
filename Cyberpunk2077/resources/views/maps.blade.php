@@ -16,6 +16,9 @@
     <li>
       <button id="login">Login</button>
     </li>
+    <li>
+      <button id="login">Register</button>
+    </li>
 
 </ul>
 
@@ -26,7 +29,7 @@
 
 <div class="visualeMappa">
 
-  <img id="mappa" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.everyeye.it%2Fimg-screenshot%2Fcyberpunk-2077-v1-644414.jpg&f=1&nofb=1" alt="">
+  <img id="mappa" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmycyberpunk2077.com%2Fwp-content%2Fuploads%2F2020%2F06%2Fnight_city_map_2077-2048x1894.jpg&f=1&nofb=1" alt="">
     
 
 </div>
