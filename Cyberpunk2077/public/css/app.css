@@ -1,0 +1,433 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 10vh;
+  width: 100%;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+}
+
+.listaWelcome {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 700px;
+  text-align: center;
+}
+
+.listaWelcome li {
+  margin: 0;
+  padding: 10px;
+  width: 150px;
+  display: inline;
+  font-size: 25px;
+}
+
+.listaWelcome a {
+  color: greenyellow;
+  padding: 0px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blueviolet;
+}
+
+.jumbotron {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+#logo_id {
+  width: auto;
+  height: 100px;
+}
+
+#login {
+  padding: 5px;
+  border-radius: 15px;
+  color: blueviolet;
+  border: 2px solid;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+  background-color: yellowgreen;
+}
+
+#login {
+  -webkit-animation: blink 1s linear infinite;
+          animation: blink 1s linear infinite;
+}
+
+@-webkit-keyframes blink {
+  10% {
+    opacity: 50%;
+  }
+
+  10% {
+    opacity: 0.5;
+  }
+}
+
+@keyframes blink {
+  10% {
+    opacity: 50%;
+  }
+
+  10% {
+    opacity: 0.5;
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 20vh;
+  width: 100vw;
+  margin-top: 20px;
+}
+
+.mappa,
+.libri,
+.gadget {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.mappa h2,
+.libri h2,
+.gadget h2 {
+  color: purple;
+  text-align: center;
+}
+
+.mappa h2:hover,
+.libri h2:hover,
+.gadget h2:hover {
+  color: greenyellow;
+}
+
+#map {
+  border-radius: 20px;
+  border: 2px solid purple;
+  height: 180px;
+  width: 280px;
+}
+
+#shop {
+  border-radius: 20px;
+  border: 2px solid purple;
+  height: 180px;
+  width: 280px;
+}
+
+#gadget {
+  border-radius: 20px;
+  border: 2px solid purple;
+  height: 180px;
+  width: 280px;
+}
+
+#gadget:hover {
+  padding: 5px;
+  box-shadow: 5px 5px 10px 2px purple;
+  -webkit-box-shadow: 5px 5px 10px 2px purple;
+  -moz-box-shadow: 5px 5px 10px 2px purple;
+}
+
+#shop:hover {
+  padding: 5px;
+  box-shadow: 5px 5px 10px 2px purple;
+  -webkit-box-shadow: 5px 5px 10px 2px purple;
+  -moz-box-shadow: 5px 5px 10px 2px purple;
+}
+
+#map:hover {
+  padding: 5px;
+  box-shadow: 5px 5px 10px 2px purple;
+  -webkit-box-shadow: 5px 5px 10px 2px purple;
+  -moz-box-shadow: 5px 5px 10px 2px purple;
+}
+
+.about > ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 2px;
+}
+
+.about > ul > li {
+  padding: 0;
+  margin: 20px;
+  font-size: 18px;
+  color: yellowgreen;
+}
+
+.contact > ul {
+  list-style-type: none;
+}
+
+.contact > ul > li {
+  padding: 0;
+  margin: 20px;
+  font-size: 18px;
+  color: yellowgreen;
+}
+
+.partnership > ul {
+  list-style-type: none;
+}
+
+.partnership > ul > li {
+  padding: 0;
+  margin: 20px;
+  font-size: 18px;
+  color: yellowgreen;
+}
+
+.testoLungo {
+  color: blueviolet;
+  font-size: 22px;
+}
+
+.parteCentrale {
+  min-height: 60vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+h1 {
+  color: yellow;
+}
+
+.testo {
+  min-height: 60vh;
+  width: 90vw;
+  text-align: center;
+}
+
+.personaggi {
+  width: 100vw;
+  min-height: 60vh;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.visualeMappa {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+#mappa {
+  width: 80vw;
+  height: 80vh;
+  border-radius: 20px;
+  border: 1px solid greenyellow;
+  box-shadow: 2px 2px 8px 8px blueviolet;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.mezzo {
+  text-align: center;
+}
+
+#scritta {
+  width: 90vw;
+  height: 700px;
+  border-radius: 20px;
+  border: 1px solid greenyellow;
+  box-shadow: 2px 2px 8px 8px blueviolet;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#fotina {
+  width: 500px;
+  height: 300px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 8px 8px blueviolet;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#fotina:hover {
+  padding: 5px;
+  box-shadow: 5px 5px 10px 2px purple;
+  -webkit-box-shadow: 5px 5px 10px 2px purple;
+  -moz-box-shadow: 5px 5px 10px 2px purple;
+}
+
+.titolo {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.compilazioneNew {
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.schema {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #23234b;
+  width: 500px;
+  min-height: 300px;
+  border-radius: 20px;
+  border: 1px solid greenyellow;
+  box-shadow: 2px 2px 8px 8px blueviolet;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.caos {
+  margin: 50px;
+  color: red;
+  font-size: 30px;
+  border: 2px solid greenyellow;
+  min-width: 900px;
+  min-height: 500px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #23234b;
+  width: 500px;
+  min-height: 300px;
+  border-radius: 20px;
+  border: 1px solid greenyellow;
+  box-shadow: 2px 2px 8px 8px blueviolet;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+input {
+  color: indianred;
+}
+
+label {
+  color: indianred;
+}
+
+.listaDatiIns {
+  list-style-type: none;
+  padding: 0;
+  margin: 2px;
+}
+
+@media screen and (max-width: 900px) {
+  #scritta {
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Xephyr Font", Courier, monospace;
+}
+
+#immagineUpolad {
+  width: 900px;
+  word-wrap: break-word;
+}
+
+body {
+  width: 100vw;
+  min-height: 60vh;
+  background-color: black;
+  color: antiquewhite;
+  margin: 0;
+}
+
+.mezzo {
+  width: 100vw;
+  min-height: 60vh;
+  background-color: black;
+  color: antiquewhite;
+  margin: 0;
+}
+
+@media all and (max-width: 576px) {
+  #map,
+  #shop,
+  #gadget {
+    height: 200px;
+    width: 380px;
+  }
+
+  .listaWelcome {
+    width: 400px;
+  }
+
+  .listaWelcome li {
+    font-size: 15px;
+  }
+
+  .libri,
+  .mappa,
+  .gadget {
+    margin-top: 50px;
+  }
+
+  .visualeMappa {
+    min-width: 300px;
+    min-height: 300px;
+  }
+}
+
+@media all and (min-width: 450px) and (max-width: 768px) {
+  #map,
+  #shop,
+  #gadget {
+    height: 200px;
+    width: 380px;
+  }
+
+  #fotina {
+    width: 350px;
+    height: 300px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+  #map,
+  #shop,
+  #gadget {
+    height: 200px;
+    width: 380px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+

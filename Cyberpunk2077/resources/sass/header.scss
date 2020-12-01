@@ -1,0 +1,82 @@
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:10vh;
+    width: 100%;
+   
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+}
+.listaWelcome{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    text-align: center;
+
+}
+.listaWelcome li{
+    margin: 0;
+    padding: 10px;
+    width: 150px;
+    display: inline;
+    font-size: 25px;
+
+}
+.listaWelcome a{
+    color: greenyellow;
+    padding:0px;
+    text-decoration: none;
+    
+}
+a:hover{
+    color: blueviolet;
+    
+}
+
+.jumbotron{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+     
+}
+#logo_id{
+    width: auto;
+    height: 100px;
+    
+}
+#login{
+    padding: 5px;
+    border-radius: 15px;
+    color: blueviolet;
+    border: 2px solid ;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    background-color: yellowgreen;
+    
+}
+#login{
+    animation: blink 1s linear infinite;
+}
+@keyframes blink{
+    10%{
+        opacity: 50%;
+    }
+    10%{
+        opacity: 0.5;
+    }
+}

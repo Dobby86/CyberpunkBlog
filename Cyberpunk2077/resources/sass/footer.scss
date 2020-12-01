@@ -1,0 +1,99 @@
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 20vh;
+    width: 100vw;
+    margin-top: 20px;
+
+}
+.mappa ,.libri, .gadget{
+    margin-top: 50px;
+    text-align: center;
+    
+    
+    h2{
+        color: purple;
+        text-align: center;
+       
+    }
+    h2:hover{
+        color: greenyellow;
+       
+    }
+}
+
+#map{
+    border-radius: 20px;
+    border: 2px solid purple;
+    height:180px;
+    width: 280px;
+    
+}
+#shop{
+    border-radius: 20px;
+    border: 2px solid purple;
+    height:180px;
+    width: 280px;
+}
+#gadget{
+    border-radius: 20px;
+    border: 2px solid purple;
+    height: 180px;
+    width: 280px;
+    
+
+}
+#gadget:hover{
+    padding:5px;
+    box-shadow: 5px 5px 10px 2px purple;
+    -webkit-box-shadow: 5px 5px 10px 2px purple;
+    -moz-box-shadow: 5px 5px 10px 2px purple;
+}
+#shop:hover{
+    padding:5px;
+    box-shadow: 5px 5px 10px 2px purple;
+    -webkit-box-shadow: 5px 5px 10px 2px purple;
+    -moz-box-shadow: 5px 5px 10px 2px purple;
+}
+#map:hover{
+    padding:5px;
+    box-shadow: 5px 5px 10px 2px purple;
+    -webkit-box-shadow: 5px 5px 10px 2px purple;
+    -moz-box-shadow: 5px 5px 10px 2px purple;
+}
+
+.about>ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 2px;
+}
+.about>ul>li {
+    padding: 0;
+    margin: 20px;
+    font-size: 18px;
+    color: yellowgreen;
+}
+.contact>ul {
+    list-style-type: none; 
+
+}
+.contact>ul>li {
+    padding: 0;
+    margin: 20px;
+    font-size: 18px;
+    color: yellowgreen;
+}
+.partnership>ul {
+    list-style-type: none; 
+}
+.partnership>ul>li {
+    padding: 0;
+    margin: 20px;
+    font-size: 18px;
+    color: yellowgreen;
+}
+
+
+
+
