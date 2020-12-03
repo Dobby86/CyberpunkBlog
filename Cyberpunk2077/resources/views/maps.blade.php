@@ -21,7 +21,7 @@
             </li>
             
             <li>
-              <a href="{{route('character')}}">Maps</a>
+              <a href="{{route('character')}}">Character</a>
             </li>
             
             <li>

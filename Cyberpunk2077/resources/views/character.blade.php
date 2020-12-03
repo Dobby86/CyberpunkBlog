@@ -1,7 +1,7 @@
 @extends('layouts.mainLayout')
 
 @section('headerLink')
-<div class="navbar">
+
 
 
 <div class="row ">

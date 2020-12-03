@@ -1,7 +1,7 @@
 @extends('layouts.mainLayout')
 
 @section('headerLink2')
-<div class="navbar">
+
     <div class="row ">
 
       <div class="col-lg-2">
@@ -33,7 +33,7 @@
       </div>
     </div>
   </div>
-</div>
+
 @endsection
 @section('storia')
 

@@ -372,10 +372,15 @@ header {
   width: 100vw;
 }
 
+#navbarDropdown {
+  color: brown;
+}
+
 .navbar {
   background-color: black;
   min-height: 20vh;
   width: 100vw;
+  position: relative;
 }
 
 .divLogo {
@@ -393,6 +398,7 @@ header {
   align-items: center;
   background-color: black;
   padding: 20px;
+  position: relative;
 }
 
 .listaWelcome {
@@ -403,12 +409,32 @@ header {
   align-items: center;
   justify-content: center;
   min-width: 800px;
+  padding-left: 50px;
+}
+
+.listaWelcomePrincipale {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 800px;
+  padding-left: 350px;
 }
 
 .listaWelcome li {
   margin: 0;
   padding-left: 30px;
-  width: 150px;
+  width: 190px;
+  display: inline;
+  font-size: 22px;
+}
+
+.listaWelcomePrincipale li {
+  margin: 0px;
+  padding-left: 30px;
+  width: 190px;
   display: inline;
   font-size: 22px;
 }
@@ -419,8 +445,19 @@ header {
   text-decoration: none;
 }
 
+.listaWelcomePrincipale a {
+  color: greenyellow;
+  padding: 0px;
+}
+
 .listaWelcome a:hover {
   color: blueviolet;
+  text-decoration: none;
+}
+
+.listaWelcomePrincipale a:hover {
+  color: blueviolet;
+  text-decoration: none;
 }
 
 .jumbotron {
