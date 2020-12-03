@@ -4,10 +4,11 @@
     box-sizing: border-box;
 }
 body{
-    
     height: 100vh;
     width: 100vw;
+    background-color: black;
 }
+
 .testoLungo{
     color: blueviolet;
     font-size: 22px;
@@ -39,7 +40,8 @@ h2{
     box-shadow: 2px 2px 8px 8px blueviolet;
 }
 .testo{
-    min-height: 60vh;
+    margin-top: 60px;
+    min-height: 50vh;
      width: 90vw;
      text-align: center;
      
@@ -105,6 +107,7 @@ a{
     box-shadow: 2px 2px 8px 8px blueviolet;
     text-align: center;
     margin-bottom: 30px;
+    margin-top: 10px;
 }
 #fotina:hover{
     padding:5px;
@@ -140,19 +143,17 @@ a{
 
 }
 .caos {
-    margin: 50px;
+    margin: 0px;
     color: red;
     font-size: 30px;
     border:2px solid greenyellow;
-    min-width: 900px;
-    min-height: 500px;
+    min-width: 500px;
+    min-height: 400px;
    text-align: center;
    display: flex;
    justify-content: center;
    align-items: center;
    background-color:rgb(35, 35, 75);
-    width: 500px;
-    min-height: 300px;
     border-radius: 20px;
     border: 1px solid greenyellow;
     box-shadow: 2px 2px 8px 8px blueviolet;
@@ -173,12 +174,17 @@ label{
 }
 .listaDatiIns{
     list-style-type: none;
-    padding: 0;
-    margin: 2px;
+    padding: 0px;
+    margin: 0px;
     word-wrap: break-word;
-    min-width: 900px;
+    min-width: 600px; 
+    min-height: 600px;
+}
+.listaDatiIns li {
+   font-size: 20px;
     
 }
+
 #immagineUpload{
     margin-top: 10px;
 }

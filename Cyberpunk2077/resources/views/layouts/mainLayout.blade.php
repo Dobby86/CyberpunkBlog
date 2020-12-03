@@ -23,21 +23,16 @@
 
     </head>
     <body>
-        <header>
-            <div class="headerSistemato">
+       
+        <header>                   
                 @yield('principale')
                 @yield('headerLink')
                 @yield('headerLink2')
-                @yield('headerLink3')
-                
-
-            </div>
-            
-               
-                             
+                @yield('headerLink3') 
+                @yield('content')          
+                                           
         </header>
-        <section class="parteCentrale">
-               
+        <section class="parteCentrale">              
                 @yield('edit')
                 @yield('create')
                 @yield('caos')
@@ -47,17 +42,15 @@
                 @yield('storia')
                 @yield('content')
                 @yield('boo')
-            
+               
         </section>
-  
-
-     
-          
-        <footer>
-           
+         
+        <footer>                   
                      @yield('footerLink')
                        
-                    @include('components.footer')                     
+                    @include('components.footer')  
+                                        
         </footer>
+    
     </body>
 </html>

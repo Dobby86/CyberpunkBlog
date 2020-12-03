@@ -9,6 +9,7 @@
 body {
   height: 100vh;
   width: 100vw;
+  background-color: black;
 }
 
 .testoLungo {
@@ -46,7 +47,8 @@ h2 {
 }
 
 .testo {
-  min-height: 60vh;
+  margin-top: 60px;
+  min-height: 50vh;
   width: 90vw;
   text-align: center;
 }
@@ -119,6 +121,7 @@ a {
   box-shadow: 2px 2px 8px 8px blueviolet;
   text-align: center;
   margin-bottom: 30px;
+  margin-top: 10px;
 }
 
 #fotina:hover {
@@ -158,19 +161,17 @@ a {
 }
 
 .caos {
-  margin: 50px;
+  margin: 0px;
   color: red;
   font-size: 30px;
   border: 2px solid greenyellow;
-  min-width: 900px;
-  min-height: 500px;
+  min-width: 500px;
+  min-height: 400px;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #23234b;
-  width: 500px;
-  min-height: 300px;
   border-radius: 20px;
   border: 1px solid greenyellow;
   box-shadow: 2px 2px 8px 8px blueviolet;
@@ -193,10 +194,15 @@ label {
 
 .listaDatiIns {
   list-style-type: none;
-  padding: 0;
-  margin: 2px;
+  padding: 0px;
+  margin: 0px;
   word-wrap: break-word;
-  min-width: 900px;
+  min-width: 600px;
+  min-height: 600px;
+}
+
+.listaDatiIns li {
+  font-size: 20px;
 }
 
 #immagineUpload {
@@ -361,12 +367,24 @@ footer {
 }
 
 header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 10vh;
-  width: 100vw;
   background-color: black;
+  height: 15vh;
+  width: 100vw;
+}
+
+.navbar {
+  background-color: black;
+  min-height: 20vh;
+  width: 100vw;
+}
+
+.divLogo {
+  height: 200px;
+}
+
+.logo {
+  height: 100px;
+  width: 200px;
 }
 
 .headerSistemato {
@@ -374,14 +392,7 @@ header {
   justify-content: center;
   align-items: center;
   background-color: black;
-  width: 100vw;
-}
-
-.menu {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 700px;
+  padding: 20px;
 }
 
 .listaWelcome {
@@ -391,16 +402,15 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 700px;
-  text-align: center;
+  min-width: 800px;
 }
 
 .listaWelcome li {
   margin: 0;
-  padding: 10px;
+  padding-left: 30px;
   width: 150px;
   display: inline;
-  font-size: 25px;
+  font-size: 22px;
 }
 
 .listaWelcome a {
@@ -430,7 +440,8 @@ header {
   height: 100px;
 }
 
-#login {
+#login,
+#register {
   padding: 5px;
   border-radius: 15px;
   color: blueviolet;
@@ -441,7 +452,8 @@ header {
   background-color: yellowgreen;
 }
 
-#login {
+#login,
+#register {
   -webkit-animation: blink 1s linear infinite;
           animation: blink 1s linear infinite;
 }

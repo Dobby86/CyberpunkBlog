@@ -1,11 +1,20 @@
 header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height:10vh;
+    background-color: black;
+    height: 15vh;
     width: 100vw;
-    background-color:  black;
+}
+.navbar{
+    background-color: black;
+    min-height: 20vh;
+    width: 100vw;
+}
+.divLogo{ 
+    height: 200px;
    
+}
+.logo{
+    height: 100px;
+    width: 200px;
 }
 
 .headerSistemato{
@@ -13,31 +22,31 @@ header{
     justify-content: center;
     align-items: center;
     background-color: black;
-    width: 100vw;
+    padding: 20px;
+   
 }
-.menu{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 700px;
-}
+// .menu{
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     width: 700px;
+// }
 .listaWelcome{
     list-style-type: none;
     margin: 0px;
     padding: 0;
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 700px;
-    text-align: center;
+    justify-content:center;
+    min-width: 800px;
 
 }
 .listaWelcome li{
     margin: 0;
-    padding: 10px;
+    padding-left: 30px;
     width: 150px;
     display: inline;
-    font-size: 25px;
+    font-size: 22px;
 
 }
 .listaWelcome a{
@@ -67,7 +76,7 @@ header{
     height: 100px;
     
 }
-#login{
+#login,#register{
     padding: 5px;
     border-radius: 15px;
     color: blueviolet;
@@ -78,7 +87,7 @@ header{
     background-color: yellowgreen;
     
 }
-#login{
+#login,#register{
     animation: blink 1s linear infinite;
 }
 @keyframes blink{

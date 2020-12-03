@@ -14,6 +14,15 @@ Route::get('/maps', function () {
 Route::get('/history', function () {
     return view('history');
 }) -> name("history");
+Route::get('/login', function () {
+    return view('login');
+}) -> name("login");
+Route::get('/register', function () {
+    return view('register');
+}) -> name("register");
+Route::get('/home', function () {
+    return view('home');
+}) -> name("home");
 
 Route::get('/character', 'CyberController@index') -> name("character");
 
@@ -35,3 +44,5 @@ Route::post('/update/{id}', 'CyberController@update') -> name("update");
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+//login

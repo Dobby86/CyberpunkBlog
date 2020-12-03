@@ -1,42 +1,92 @@
 @extends('layouts.mainLayout')
 
 @section('principale')
+<div class="navbar">
+<div class="row ">
 
+  <div class="col-lg-2">
 
-    <div class="menu">
-
-      <ul class="listaWelcome "> 
-        
-          <li>
-              <a href="{{route('maps')}}">Maps</a>
-          </li>
-          <li>
-            <a href="{{route('character')}}">Character</a>
-          </li>
-          <li>
-            <a href="{{route('history')}}">History</a>
-          </li>
-          <li>
-            <button id="login">Login</button>
-          </li>
-          <li>
-            <button id="login">Register</button>
-          </li>
-        
-    
-      </ul>
+    <div class="divLogo">
+      <img class="logo" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fhyperpix.net%2Fwp-content%2Fuploads%2F2019%2F08%2Fcyberpunk-2077-logo-font-download.jpg&f=1&nofb=1" alt="">
     </div>
-    
+  </div>
+
+@if (Route::has('login'))
+<div class="col-offset-lg-2 col-lg-8">
+  <div class="headerSistemato">
+        <ul class="listaWelcome"> 
+          
+            <li>
+              @auth
+                <a href="{{route('maps')}}">Maps</a>
+            </li>
+            <li>
+              
+              <a href="{{route('character')}}">Character</a>
+            </li>
+            <li>
+              <a href="{{route('history')}}">History</a>
+            </li>
+            <li>
+              @else
+              <button id="login"><a href="{{route('login')}}">Login</a></button>
+            </li>
+            <li>
+              @if (Route::has('register'))
+              <button id="register"><a href="{{route('register')}}">Register</a></button>
+              @endif
+              @endauth
+            </li>
+          
+      
+        </ul>
 
 
-   
+      @endif
+       <!-- Right Side Of Navbar -->
+       <ul class="navbar-nav ml-auto">
+        <!-- Authentication Links -->
+        @guest
+            <li class="nav-item">
+                <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+            </li>
+            @if (Route::has('register'))
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                </li>
+            @endif
+        @else
+            <li class="nav-item dropdown">
+                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                    {{ Auth::user()->name }}
+                </a>
+
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="{{ route('logout') }}"
+                       onclick="event.preventDefault();
+                                     document.getElementById('logout-form').submit();">
+                        {{ __('Logout') }}
+                    </a>
+
+                    <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                        @csrf
+                    </form>
+                </div>
+            </li>
+        @endguest
+    </ul>
+    </div>  
+  </div>
+</div>
+</div>
 @endsection
+
 
 @section('jambo')
 <div class="mezzo">
   <div class="row">
       <div class="col-xs-12">
-        <img id="scritta" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.actugaming.net%2Fwp-content%2Fuploads%2F2018%2F02%2Fcyberpunk-2077.jpg&f=1&nofb=1" alt="">
+        <img id="scritta" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.dribbble.com%2Fusers%2F4499783%2Fscreenshots%2F9083407%2Fmedia%2F99a43f25dda53dac91a5536ed66d7f8c.gif&f=1&nofb=1" alt="">
 
       </div>
   </div>

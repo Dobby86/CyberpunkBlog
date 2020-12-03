@@ -4,9 +4,8 @@
 
       <div class="caos">
          <ul class="listaDatiIns">
-
-        
-            <li id="immagineUpload"><img id="fotina" src="{{$item['src']}}" alt=""></li>
+   
+            <img id="fotina" src="{{$item['src']}}" alt="">
                <br>
                <li> Titolo: {{$item['titolo']}}</li>
                <br>
