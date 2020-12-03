@@ -4,7 +4,7 @@
 
 <div class="row ">
 
-  <div class="col-lg-2">
+  <div class="col-xs-4 col-lg-2">
 
     <div class="divLogo">
       <img class="logo" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fhyperpix.net%2Fwp-content%2Fuploads%2F2019%2F08%2Fcyberpunk-2077-logo-font-download.jpg&f=1&nofb=1" alt="">
@@ -12,7 +12,7 @@
   </div>
 
 @if (Route::has('login'))
-<div class="col-offset-lg-2 col-lg-9">
+<div class="col-xs-12 col-md-6 col-offset-lg-2 col-lg-9">
   <div class="headerSistemato">
         <ul class="listaWelcomePrincipale"> 
           
@@ -79,7 +79,7 @@
 <div class="mezzo">
   <div class="row">
       <div class="col-xs-12">
-        {{-- <img id="scritta" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.dribbble.com%2Fusers%2F4499783%2Fscreenshots%2F9083407%2Fmedia%2F99a43f25dda53dac91a5536ed66d7f8c.gif&f=1&nofb=1" alt=""> --}}
+        <img id="scritta" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.dribbble.com%2Fusers%2F4499783%2Fscreenshots%2F9083407%2Fmedia%2F99a43f25dda53dac91a5536ed66d7f8c.gif&f=1&nofb=1" alt="">
 
       </div>
   </div>

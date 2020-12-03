@@ -28,7 +28,7 @@ h1{
     color: yellow;
 }
 h2{
-    color: brown;
+    color: indianred;
     font-size: 28Spx;
 }
 #submit{
@@ -144,7 +144,7 @@ a{
 }
 .caos {
     margin: 0px;
-    color: red;
+    color: indianred;
     font-size: 30px;
     border:2px solid greenyellow;
     min-width: 500px;
@@ -180,9 +180,17 @@ label{
     min-width: 600px; 
     min-height: 600px;
 }
-.listaDatiIns li {
-   font-size: 20px;
+.listaDatiIns li{
+   font-size: 20px; 
+   text-decoration: none;   
+}
+.selettori{
     
+    color: yellow; 
+}
+.selettori:hover{
+    text-decoration: none;
+    color: purple;
 }
 
 #immagineUpload{

@@ -15,12 +15,13 @@ header{
     position: relative;
 }
 .divLogo{ 
-    height: 200px;
+    height: 150px;
    
 }
 .logo{
-    height: 100px;
-    width: 200px;
+    height: 110px;
+    width: 250px;
+    margin-left: 30px;
 }
 
 .headerSistemato{
@@ -117,14 +118,15 @@ header{
     
 }
 #login,#register{
-    padding: 5px;
-    border-radius: 15px;
+    padding: 10px;
+    border-radius: 10px;
     color: blueviolet;
     border: 2px solid ;
     cursor: pointer;
     text-decoration: none;
     outline: none;
     background-color: yellowgreen;
+    margin-bottom: 20px;
     
 }
 #login,#register{
@@ -137,4 +139,9 @@ header{
     10%{
         opacity: 0.5;
     }
+}
+//login
+#loggarsi{
+    background-color: purple;
+    color: purple;
 }

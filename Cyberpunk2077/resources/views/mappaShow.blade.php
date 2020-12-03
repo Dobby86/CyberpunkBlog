@@ -13,8 +13,8 @@
                <br>
                <li>  Descrizione: {{$item['descrizione']}}</li>
               <br>
-            <li> <a href="{{ route('destroy', $item['id']) }}">Delete me</a></li>
-            <li> <a href="{{ route('edit', $item['id']) }}">Edit Me</a></li>
+            <li> <a class="selettori" href="{{ route('destroy', $item['id']) }}">Delete me</a></li>
+            <li> <a class="selettori" href="{{ route('edit', $item['id']) }}">Edit Me</a></li>
          </ul>
               
         

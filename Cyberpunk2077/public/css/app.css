@@ -32,7 +32,7 @@ h1 {
 }
 
 h2 {
-  color: brown;
+  color: indianred;
   font-size: 28Spx;
 }
 
@@ -162,7 +162,7 @@ a {
 
 .caos {
   margin: 0px;
-  color: red;
+  color: indianred;
   font-size: 30px;
   border: 2px solid greenyellow;
   min-width: 500px;
@@ -203,6 +203,16 @@ label {
 
 .listaDatiIns li {
   font-size: 20px;
+  text-decoration: none;
+}
+
+.selettori {
+  color: yellow;
+}
+
+.selettori:hover {
+  text-decoration: none;
+  color: purple;
 }
 
 #immagineUpload {
@@ -384,12 +394,13 @@ header {
 }
 
 .divLogo {
-  height: 200px;
+  height: 150px;
 }
 
 .logo {
-  height: 100px;
-  width: 200px;
+  height: 110px;
+  width: 250px;
+  margin-left: 30px;
 }
 
 .headerSistemato {
@@ -479,14 +490,15 @@ header {
 
 #login,
 #register {
-  padding: 5px;
-  border-radius: 15px;
+  padding: 10px;
+  border-radius: 10px;
   color: blueviolet;
   border: 2px solid;
   cursor: pointer;
   text-decoration: none;
   outline: none;
   background-color: yellowgreen;
+  margin-bottom: 20px;
 }
 
 #login,
@@ -513,6 +525,11 @@ header {
   10% {
     opacity: 0.5;
   }
+}
+
+#loggarsi {
+  background-color: purple;
+  color: purple;
 }
 
 /*!
