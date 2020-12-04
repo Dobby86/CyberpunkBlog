@@ -3,9 +3,9 @@
         <div class="col-xs-12 col-sm-12 col-lg-4">
     
         <div class="mappa">
-            <h2>Map</h2>
+            <h2>Cd Projekt Red</h2>
             
-            <a href="{{route('maps')}}"><img id="map" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.altchar.com%2Fprod%2Fimages%2F620_350%2Fgm-32d45ade-f3d0-4134-8eba-9db7b4020650-cp-map-size.jpg&f=1&nofb=1" alt="">
+            <a href="https://en.cdprojektred.com/"><img id="map" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.thatvideogameblog.com%2Fwp-content%2Fuploads%2F2017%2F10%2FCDPR_Title.jpg&f=1&nofb=1" alt="">
         </a> 
         </div>
         </div>

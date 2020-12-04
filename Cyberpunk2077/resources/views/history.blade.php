@@ -22,11 +22,11 @@
                 </li>
                 
                 <li>
-                  <a href="{{route('character')}}">Maps</a>
+                  <a href="{{route('character')}}">Character</a>
                 </li>
                 
                 <li>
-                  <a href="{{route('maps')}}">History</a>
+                  <a href="{{route('maps')}}">Maps</a>
                 </li>
                 
           </ul>
