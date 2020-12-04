@@ -77,9 +77,9 @@ class CyberController extends Controller
         -> route('character', $id)
         -> withSuccess("Updated " . "successfully");
        
-
-        
+       
     }
+   
 }
 
 

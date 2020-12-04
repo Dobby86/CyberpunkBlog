@@ -386,6 +386,23 @@ header {
   color: brown;
 }
 
+#tastoProfileedit {
+  color: indianred;
+  text-decoration: none;
+}
+
+#tastoProfileedit:hover {
+  color: yellowgreen;
+}
+
+#tastoLogout {
+  color: indianred;
+}
+
+#tastoLogout:hover {
+  color: yellowgreen;
+}
+
 .navbar {
   background-color: black;
   min-height: 20vh;

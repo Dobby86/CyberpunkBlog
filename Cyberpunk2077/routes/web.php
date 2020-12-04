@@ -45,4 +45,6 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-//login
+//scelta immagine profilo
+Route::get('item/scegli', 'ProfileController@scegli')->name('scegli');
+Route::post('item/aggiornaFoto', 'ProfileController@aggiornaFoto')->name('aggiornaFoto');

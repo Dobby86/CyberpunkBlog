@@ -14,27 +14,21 @@
 @if (Route::has('login'))
 <div class="col-xs-12 col-md-6 col-offset-lg-2 col-lg-9">
   <div class="headerSistemato">
-        <ul class="listaWelcomePrincipale"> 
-          
+        <ul class="listaWelcomePrincipale">          
             <li>
               @auth
-                <a href="{{route('maps')}}">Maps</a>
-            </li>
-            <li>
-              
-              <a href="{{route('character')}}">Character</a>
-            </li>
-            <li>
-              <a href="{{route('history')}}">History</a>
-            </li>
+                    <a href="{{route('maps')}}">Maps</a>
+                </li>
+                <li>              
+                  <a href="{{route('character')}}">Character</a>
+                </li>
+                <li>
+                  <a href="{{route('history')}}">History</a>
+                </li>
            
               @endauth
-            </li>
-          
-      
+            </li>     
         </ul>
-
-
       @endif
        <!-- Right Side Of Navbar -->
        <ul class="navbar-nav ml-auto">
@@ -55,11 +49,12 @@
                 </a>
 
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="{{ route('logout') }}"
+                    <a id="tastoLogout" class="dropdown-item" href="{{ route('logout') }}"
                        onclick="event.preventDefault();
                                      document.getElementById('logout-form').submit();">
                         {{ __('Logout') }}
                     </a>
+                  <a id="tastoProfileedit" href="{{ Route('scegli') }}">Profile edit</a>
 
                     <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
                         @csrf
