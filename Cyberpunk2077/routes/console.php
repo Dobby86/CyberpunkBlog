@@ -12,7 +12,7 @@ Artisan::command('inspire', function () {
 
 Artisan::command('fillcyberpunk',function(){
 
-    $personaggi=config("personaggi");
+    $personaggi = config("personaggi");
 
     foreach ($personaggi as $value) {
         

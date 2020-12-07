@@ -16,7 +16,7 @@ class ProfileController extends Controller
    public function aggiornaFoto(Request $request) {
        $validateFile = $request -> validate([
            'name' => 'required',
-           'profile_image' => 'required|image|mimes:jpeg,png,gif|max:2048'
+           'profile_image' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048'
        ]);
        $user = User::findOrFail(auth() -> user() -> id);
        $user -> name = $validateFile['name'];
@@ -33,6 +33,7 @@ class ProfileController extends Controller
             $image -> storeAs($folder, $name.'.'. $image ->getClientOriginalExtension(), 'public' ); 
 
             $user -> save();
+
             return redirect() -> route('/');
        
    }

@@ -164,14 +164,20 @@ a{
 }
 input{
     color: indianred;
-    width: 150px;
+    min-width: 150px;
     height: 20px;
     border-radius: 5px;
 }
 label{
     color: indianred;
     font-size: 22px;
+    
 }
+#bob{
+    width: 500px;
+    
+}
+
 .listaDatiIns{
     list-style-type: none;
     padding: 0px;

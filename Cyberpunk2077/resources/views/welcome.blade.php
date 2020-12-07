@@ -25,6 +25,7 @@
                 <li>
                   <a href="{{route('history')}}">History</a>
                 </li>
+                
            
               @endauth
             </li>     
@@ -44,9 +45,11 @@
             @endif
         @else
             <li class="nav-item dropdown">
+              <img src="{{ asset(auth()->user()->profile_image) }}" style="width: 40px; height: 40px; border-radius: 50%;">
                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                     {{ Auth::user()->name }}
                 </a>
+                
 
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                     <a id="tastoLogout" class="dropdown-item" href="{{ route('logout') }}"
@@ -54,9 +57,13 @@
                                      document.getElementById('logout-form').submit();">
                         {{ __('Logout') }}
                     </a>
-                  <a id="tastoProfileedit" href="{{ Route('scegli') }}">Profile edit</a>
+                  <a id="tastoProfileedit" href="{{ Route('scegli') }}">
+                  {{ Auth::user()->name }} <span class="caret"></span>
+                  
+                </a>
 
                     <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                      
                         @csrf
                     </form>
                 </div>
