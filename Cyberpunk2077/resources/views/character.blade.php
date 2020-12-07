@@ -49,6 +49,15 @@
       <div class="col-xs-12 col-lg-12">
 
         <div class="personaggi">
+
+          <h2>
+            ITEMS
+            <br>
+          <a id="create" href="{{ route('createx') }}">Create New</a>
+          
+          </h2>   
+          <br>
+    
           
           @if (session("success"))
               <h2>{{ session('success') }}</h2>
@@ -81,14 +90,7 @@
       <div class="personaggi">
                     
     <ul>
-      <h2>
-        ITEMS
-        <br>
-      <a id="create" href="{{ route('createx') }}">Create New</a>
       
-      </h2>   
-      <br>
-
       @foreach ($mappeGenerate as $item)
       <li>
     
